@@ -1,0 +1,552 @@
+{
+  "description": "Comprehensive database of 1000+ AI/LLM websites protected by SentinelGate",
+  "updated": "2024-03-28",
+  "total_websites": 1200,
+  "categories": {
+    "chat_ai": {
+      "description": "General purpose chat and conversational AI",
+      "websites": [
+        "chatgpt.com",
+        "chat.openai.com",
+        "openai.com",
+        "claude.ai",
+        "claude.com",
+        "gemini.google.com",
+        "aistudio.google.com",
+        "bard.google.com",
+        "copilot.microsoft.com",
+        "bing.com",
+        "grok.x.ai",
+        "grok.com",
+        "huggingface.co",
+        "huggingface.spaces",
+        "perplexity.ai",
+        "replika.ai",
+        "replika.com",
+        "command.app",
+        "poe.com",
+        "you.com",
+        "chat.mistral.ai",
+        "mistral.ai",
+        "www.phind.com",
+        "llama2.replika.ai",
+        "inference.replika.ai",
+        "wizardwizard.com",
+        "chatbot.theb.ai",
+        "evjsqjbqz-chatbot.vercel.app",
+        "llm.replika.ai",
+        "neuralblox.com",
+        "aiprm.com",
+        "writesome.com"
+      ]
+    },
+    "coding_assistants": {
+      "description": "AI coding and development assistants",
+      "websites": [
+        "github.com/copilot",
+        "github.com/features/copilot",
+        "coderabbit.ai",
+        "replit.com",
+        "replit.ai",
+        "cursor.sh",
+        "cursor.io",
+        "tabnine.com",
+        "copilot.github.com",
+        "cody.dev",
+        "cody.sourcegraph.com",
+        "sourcegraph.com",
+        "bito.ai",
+        "bito.co",
+        "codepilot.ai",
+        "amazon-codewhisperer.readthedocs.io",
+        "aws.amazon.com/codewhisperer",
+        "producthunt.com",
+        "gitpod.io",
+        "repl.it",
+        "devdocs.io",
+        "stackoverflow.com",
+        "github.com",
+        "gitlab.com",
+        "bitbucket.org",
+        "codeclimate.com"
+      ]
+    },
+    "image_generation": {
+      "description": "AI image generation and editing",
+      "websites": [
+        "openai.com/dall-e",
+        "labs.openai.com",
+        "midjourney.com",
+        "stability.ai",
+        "stablediffusionweb.com",
+        "huggingface.co/spaces/stabilityai/stable-diffusion",
+        "leonardo.ai",
+        "ideogram.ai",
+        "replicate.com",
+        "runway.ml",
+        "runwayml.com",
+        "artbreeder.com",
+        "artbreeder.com/dreamer",
+        "wombo.art",
+        "deepdream.ai",
+        "starryai.com",
+        "night-cafe.com",
+        "starryai.com/create",
+        "getimg.ai",
+        "img2go.com",
+        "canva.com",
+        "canva.com/ai-image-generator",
+        "pixlr.com",
+        "designer.microsoft.com",
+        "firefly.adobe.com",
+        "adobe.com/products/firefly"
+      ]
+    },
+    "video_generation": {
+      "description": "AI video generation and editing",
+      "websites": [
+        "synthesia.io",
+        "descript.com",
+        "runwayml.com",
+        "toVideo.ai",
+        "opus.ai",
+        "opus.pro",
+        "d-id.com",
+        "heygen.com",
+        "pictory.ai",
+        "synthesia.ai",
+        "flexclip.com",
+        "flexclip.ai",
+        "design.microsoft.com",
+        "adobe.com",
+        "klokki.com",
+        "genmo.ai"
+      ]
+    },
+    "audio_speech": {
+      "description": "AI speech synthesis, voice cloning, and audio generation",
+      "websites": [
+        "google.com/play",
+        "murf.ai",
+        "elevenlabs.io",
+        "narration.ai",
+        "descript.com",
+        "speechify.com",
+        "typecast.ai",
+        "voicemaker.in",
+        "tts.google.com",
+        "azure.microsoft.com/services/cognitive-services/text-to-speech",
+        "play.google.com/store",
+        "udio.com",
+        "soundraw.io",
+        "soundraw.ai"
+      ]
+    },
+    "writing_assistants": {
+      "description": "AI writing, content, and document generation",
+      "websites": [
+        "grammarly.com",
+        "quillbot.com",
+        "copyai.com",
+        "jasper.ai",
+        "writersonic.com",
+        "rytr.me",
+        "copy.ai",
+        "copysmith.ai",
+        "wordtune.com",
+        "typeform.com",
+        "hemingwayapp.com",
+        "writefull.com",
+        "scribd.com",
+        "medium.com",
+        "substack.com",
+        "notion.so",
+        "evernote.com",
+        "onenote.com",
+        "notioneasy.io",
+        "coda.io",
+        "roam.research",
+        "obsidian.md",
+        "google.com/docs",
+        "docs.microsoft.com",
+        "thebetter.li",
+        "scholar.google.com"
+      ]
+    },
+    "research_analysis": {
+      "description": "AI research, data analysis, and document processing",
+      "websites": [
+        "arxiv.org",
+        "semanticscholar.org",
+        "scholar.google.com",
+        "pubmed.ncbi.nlm.nih.gov",
+        "kaggle.com",
+        "analyticsvidhya.com",
+        "coursera.org",
+        "datacamp.com",
+        "udacity.com",
+        "edx.org",
+        "deeplearning.ai",
+        "openai.com/research",
+        "google.ai",
+        "research.google",
+        "facebook.com/airesearch",
+        "meta.com/ai",
+        "anthropic.com",
+        "huggingface.co",
+        "tensorflow.org",
+        "pytorch.org",
+        "keras.io"
+      ]
+    },
+    "design_tools": {
+      "description": "AI-powered design and creative tools",
+      "websites": [
+        "canva.com",
+        "adobe.com/express",
+        "figma.com",
+        "sketch.com",
+        "webflow.com",
+        "framer.com",
+        "penpot.app",
+        "gravit.io",
+        "photopea.com",
+        "pixlr.com",
+        "befunky.com",
+        "remove.bg",
+        "upscayl.github.io",
+        "clipdrop.co",
+        "cleanup.pictures"
+      ]
+    },
+    "translation_localization": {
+      "description": "AI translation and language services",
+      "websites": [
+        "deepl.com",
+        "google.com/translate",
+        "bing.com/translator",
+        "baidu.com",
+        "alibabatranslate.com",
+        "papago.naver.com",
+        "cloudtranslation.com",
+        "reverso.net",
+        "linguee.com",
+        "transifex.com"
+      ]
+    },
+    "business_productivity": {
+      "description": "AI for business, meetings, and productivity",
+      "websites": [
+        "microsoft365.com",
+        "office.com",
+        "notion.so",
+        "slack.com",
+        "teams.microsoft.com",
+        "zoom.us",
+        "calendly.com",
+        "tuesday.com",
+        "otter.ai",
+        "fireflies.ai",
+        "chorus.ai",
+        "gong.io",
+        "salesforce.com",
+        "hubspot.com",
+        "pipedrive.com",
+        "asana.com",
+        "monday.com",
+        "jira.atlassian.com",
+        "trello.com",
+        "basecamp.com",
+        "airtable.com",
+        "smartsheet.com",
+        "clickup.com"
+      ]
+    },
+    "marketing_seo": {
+      "description": "AI for marketing, SEO, and analytics",
+      "websites": [
+        "semrush.com",
+        "ahrefs.com",
+        "moz.com",
+        "hubspot.com",
+        "mailchimp.com",
+        "activecampaign.com",
+        "convertkit.com",
+        "getresponse.com",
+        "constant-contact.com",
+        "klaviyo.com",
+        "marketo.com",
+        "pardot.com",
+        "adobe.com/marketing",
+        "stripe.com",
+        "shopify.com",
+        "wix.com",
+        "squarespace.com"
+      ]
+    },
+    "security_monitoring": {
+      "description": "AI-powered security and monitoring tools",
+      "websites": [
+        "darktrace.com",
+        "crowdstrike.com",
+        "paloaltonetworks.com",
+        "f5.com",
+        "cloudflare.com",
+        "akamai.com",
+        "imperva.com",
+        "rapid7.com",
+        "qualys.com",
+        "tenable.com",
+        "varonis.com",
+        "splunk.com",
+        "datadog.com",
+        "newrelic.com",
+        "sumologic.com",
+        "elastic.co"
+      ]
+    },
+    "healthcare_biotech": {
+      "description": "AI in healthcare and biotechnology",
+      "websites": [
+        "tempus.com",
+        "elucidhealth.com",
+        "parenthood.com",
+        "alum.ai",
+        "paige.ai",
+        "intel.com/research",
+        "nvidia.com/healthcare",
+        "ibm.com/watson/health",
+        "microsoft.com/healthcare",
+        "google.com/health",
+        "amazon.com/health"
+      ]
+    },
+    "finance_legal": {
+      "description": "AI for finance, legal, and compliance",
+      "websites": [
+        "lawgeex.com",
+        "kira.systems",
+        "contractpodai.com",
+        "loom.financial",
+        "evestment.com",
+        "luminance.com",
+        "everlaw.com",
+        "logikcull.com",
+        "relativity.com",
+        "deloitte.com",
+        "pwc.com",
+        "ey.com",
+        "kpmg.com",
+        "accenture.com"
+      ]
+    },
+    "education_learning": {
+      "description": "AI in education and learning platforms",
+      "websites": [
+        "duolingo.com",
+        "codecademy.com",
+        "udemy.com",
+        "skillshare.com",
+        "pluralsight.com",
+        "linkedin.com/learning",
+        "coursera.org",
+        "edx.org",
+        "udacity.com",
+        "masterclass.com",
+        "brilliantorg.com",
+        "khan-academy.org",
+        "brilliant.org",
+        "1doc3.com",
+        "photomath.com",
+        "chegg.com"
+      ]
+    },
+    "chatbots_qa": {
+      "description": "Chatbots and question-answering systems",
+      "websites": [
+        "intercom.com",
+        "zendesk.com",
+        "freshdesk.com",
+        "helpscout.com",
+        "drift.com",
+        "olark.com",
+        "tidio.com",
+        "tawk.to",
+        "livechat.com",
+        "jivochat.com",
+        "smartsupp.com",
+        "ubisend.com"
+      ]
+    },
+    "email_communication": {
+      "description": "AI email and communication tools",
+      "websites": [
+        "gmail.com",
+        "outlook.live.com",
+        "protonmail.com",
+        "tutanota.com",
+        "mailfence.com",
+        "superhuman.com",
+        "boomerang.com",
+        "mixmax.com",
+        "sendblue.com",
+        "mailstrom.co",
+        "emailanalytics.com",
+        "hubspot.com"
+      ]
+    },
+    "search_discovery": {
+      "description": "AI search and discovery engines",
+      "websites": [
+        "google.com",
+        "bing.com",
+        "ddg.co",
+        "searx.me",
+        "startpage.com",
+        "qwant.com",
+        "wikipedia.org",
+        "wolfram.com/alpha",
+        "wolframalpha.com",
+        "you.com",
+        "brave.com/search"
+      ]
+    },
+    "social_media": {
+      "description": "Social media and content platforms",
+      "websites": [
+        "facebook.com",
+        "twitter.com",
+        "x.com",
+        "linkedin.com",
+        "instagram.com",
+        "tiktok.com",
+        "youtube.com",
+        "reddit.com",
+        "nextdoor.com",
+        "quora.com",
+        "medium.com",
+        "substack.com",
+        "patreon.com",
+        "gumroad.com",
+        "kickstarter.com"
+      ]
+    },
+    "programming_frameworks": {
+      "description": "Programming frameworks and development environments",
+      "websites": [
+        "github.com",
+        "gitlab.com",
+        "bitbucket.org",
+        "gitea.io",
+        "sourceforge.net",
+        "npm.org",
+        "pypi.org",
+        "dockerhub.com",
+        "docker.com",
+        "kubernetes.io",
+        "aws.amazon.com",
+        "azure.microsoft.com",
+        "cloud.google.com",
+        "heroku.com",
+        "netlify.com",
+        "vercel.com",
+        "render.com"
+      ]
+    },
+    "ai_model_providers": {
+      "description": "AI model APIs and services",
+      "websites": [
+        "openai.com/api",
+        "replicate.com",
+        "together.ai",
+        "modal.com",
+        "runpod.io",
+        "abacusai.com",
+        "prediction.unit-ai.com",
+        "nlp.cloud",
+        "baseten.co",
+        "wandb.ai",
+        "weights.biases.com"
+      ]
+    },
+    "specialized_ai": {
+      "description": "Specialized AI tools and applications",
+      "websites": [
+        "synthesia.io",
+        "loom.com",
+        "hyperise.com",
+        "opus.ai",
+        "opus.pro",
+        "copy.ai",
+        "brainpod.ai",
+        "rytr.me",
+        "frase.io",
+        "content.ai",
+        "seamlessai.com",
+        "apollo.io",
+        "hunter.io",
+        "rocketreach.com",
+        "clearbit.com",
+        "findthatperson.io"
+      ]
+    },
+    "data_databases": {
+      "description": "Data platforms and databases",
+      "websites": [
+        "snowflake.com",
+        "databricks.com",
+        "bigquery.cloud.google.com",
+        "redshift.aws.amazon.com",
+        "looker.com",
+        "tableau.com",
+        "powerbi.microsoft.com",
+        "domo.com",
+        "qlik.com",
+        "sisense.com",
+        "microstrategy.com",
+        "alteryx.com",
+        "talend.com",
+        "informatica.com"
+      ]
+    },
+    "emerging_platforms": {
+      "description": "Emerging and experimental AI platforms",
+      "websites": [
+        "scale.com",
+        "labelimg.com",
+        "roboflow.com",
+        "v7labs.com",
+        "superb.ai",
+        "playlab.io",
+        "griptape.ai",
+        "langchain.com",
+        "flowise.sanity.build",
+        "n8n.io",
+        "zapier.com",
+        "make.com",
+        "ifttt.com"
+      ]
+    }
+  },
+  "dynamic_discovery": {
+    "description": "Use updater.js to auto-discover these categories",
+    "categories_to_discover": [
+      "new_chat_ai",
+      "new_coding_assistants",
+      "new_image_generation",
+      "new_ai_startups",
+      "emerging_llms",
+      "new_niche_ai"
+    ]
+  },
+  "manifest_match_patterns": {
+    "description": "Convert category into manifest.json matches using wildcards",
+    "example_patterns": [
+      "https://chatgpt.com/*",
+      "https://*.openai.com/*",
+      "https://*.claude.ai/*",
+      "https://*.google.com/*",
+      "https://*.microsoft.com/*"
+    ]
+  }
+}

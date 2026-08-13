@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PGAI OCR Worker</title>
+  <script src="vendor/tesseract/tesseract.min.js"></script>
+</head>
+<body>
+<script>
+(function() {
+  'use strict';
+
+  let ocrWorker = null;
+  let initPromise = null;
+
+  async function getWorker() {
+    if (ocrWorker) return ocrWorker;
+    if (initPromise) return initPromise;
+
+    initPromise = (async () => {
+      const opts = {
+        workerPath: chrome.runtime.getURL('vendor/tesseract/worker.min.js'),
+        corePath: chrome.runtime.getURL('vendor/tesseract/tesseract-core.wasm.js'),
+        // Point langPath to the PARENT folder; Tesseract appends "eng.traineddata" automatically
+        langPath: chrome.runtime.getURL('vendor/tessdata/'),
+        workerBlobURL: false,
+        gzip: false
+      };
+
+      try {
+        ocrWorker = await Tesseract.createWorker('eng', 1, opts);
+        console.log('[PGAI OCR] Tesseract worker ready');
+      } catch (e1) {
+        console.warn('[PGAI OCR] Modern API failed, trying legacy:', e1);
+        try {
+          ocrWorker = await Tesseract.createWorker(opts);
+          if (typeof ocrWorker.loadLanguage === 'function') await ocrWorker.loadLanguage('eng');
+          if (typeof ocrWorker.initialize === 'function')  await ocrWorker.initialize('eng');
+          console.log('[PGAI OCR] Tesseract worker ready (legacy API)');
+        } catch (e2) {
+          console.error('[PGAI OCR] Tesseract init failed:', e2);
+          initPromise = null;
+          ocrWorker = null;
+          throw e2;
+        }
+      }
+      return ocrWorker;
+    })();
+
+    return initPromise;
+  }
+
+  // Pre-warm
+  getWorker().catch(() => {});
+
+  // Handle OCR requests from content scripts via window.postMessage
+  window.addEventListener('message', async (e) => {
+    if (!e.data || e.data.type !== 'PGAI_OCR_REQUEST') return;
+    const { id, dataUrl } = e.data;
+
+    try {
+      const worker = await getWorker();
+      const result = await worker.recognize(dataUrl);
+      const text = (result && result.data && result.data.text) ? result.data.text : '';
+      console.log('[PGAI OCR] recognized text length:', text.length, '| preview:', text.slice(0, 100));
+      window.parent.postMessage({ type: 'PGAI_OCR_RESPONSE', id, success: true, text }, '*');
+    } catch (err) {
+      console.error('[PGAI OCR] recognize error:', err);
+      window.parent.postMessage({ type: 'PGAI_OCR_RESPONSE', id, success: false, text: '', error: String(err) }, '*');
+    }
+  });
+
+  // Signal that iframe is ready
+  window.parent.postMessage({ type: 'PGAI_OCR_READY' }, '*');
+})();
+</script>
+</body>
+</html>

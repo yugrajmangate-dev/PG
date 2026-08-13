@@ -1,0 +1,361 @@
+﻿content.js(26,24): error TS7006: Parameter 'matchesFound' implicitly has an 'any' type.
+content.js(36,38): error TS7006: Parameter 'match' implicitly has an 'any' type.
+content.js(36,48): error TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type '{ phoneNumber: string; aadhaarLoose: string; aadhaarNumber: string; panLoose: string; panNumber: string; bankAccountLoose: string; }'.
+content.js(40,24): error TS7006: Parameter 'text' implicitly has an 'any' type.
+content.js(46,9): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ creditCard: RegExp; phoneNumber: RegExp; aadhaarLoose: RegExp; panLoose: RegExp; bankAccountLoose: RegExp; awsKey: RegExp; email: RegExp; ... 8 more ...; highEntropySecret: RegExp; }'.
+  No index signature with a parameter of type 'string' was found on type '{ creditCard: RegExp; phoneNumber: RegExp; aadhaarLoose: RegExp; panLoose: RegExp; bankAccountLoose: RegExp; awsKey: RegExp; email: RegExp; ... 8 more ...; highEntropySecret: RegExp; }'.
+content.js(48,13): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ creditCard: RegExp; phoneNumber: RegExp; aadhaarLoose: RegExp; panLoose: RegExp; bankAccountLoose: RegExp; awsKey: RegExp; email: RegExp; ... 8 more ...; highEntropySecret: RegExp; }'.
+  No index signature with a parameter of type 'string' was found on type '{ creditCard: RegExp; phoneNumber: RegExp; aadhaarLoose: RegExp; panLoose: RegExp; bankAccountLoose: RegExp; awsKey: RegExp; email: RegExp; ... 8 more ...; highEntropySecret: RegExp; }'.
+content.js(50,49): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ creditCard: RegExp; phoneNumber: RegExp; aadhaarLoose: RegExp; panLoose: RegExp; bankAccountLoose: RegExp; awsKey: RegExp; email: RegExp; ... 8 more ...; highEntropySecret: RegExp; }'.
+  No index signature with a parameter of type 'string' was found on type '{ creditCard: RegExp; phoneNumber: RegExp; aadhaarLoose: RegExp; panLoose: RegExp; bankAccountLoose: RegExp; awsKey: RegExp; email: RegExp; ... 8 more ...; highEntropySecret: RegExp; }'.
+content.js(56,26): error TS7006: Parameter 'message' implicitly has an 'any' type.
+content.js(56,35): error TS7006: Parameter 'type' implicitly has an 'any' type.
+content.js(85,12): error TS7005: Variable 'activeTextInput' implicitly has an 'any' type.
+content.js(88,23): error TS7006: Parameter 'inputEl' implicitly has an 'any' type.
+content.js(88,32): error TS7006: Parameter 'text' implicitly has an 'any' type.
+content.js(100,54): error TS2345: Argument of type 'null' is not assignable to parameter of type 'string | undefined'.
+content.js(113,16): error TS2339: Property 'JSZip' does not exist on type 'Window & typeof globalThis'.
+content.js(113,53): error TS2339: Property 'JSZip' does not exist on type 'Window & typeof globalThis'.
+content.js(119,28): error TS2339: Property 'JSZip' does not exist on type 'Window & typeof globalThis'.
+content.js(120,36): error TS2339: Property 'JSZip' does not exist on type 'Window & typeof globalThis'.
+content.js(131,22): error TS2304: Cannot find name 'chrome'.
+content.js(132,46): error TS2339: Property 'JSZip' does not exist on type 'Window & typeof globalThis'.
+content.js(138,36): error TS7006: Parameter 'file' implicitly has an 'any' type.
+content.js(145,21): error TS2339: Property 'JSZip' does not exist on type 'Window & typeof globalThis'.
+content.js(152,34): error TS2339: Property 'JSZip' does not exist on type 'Window & typeof globalThis'.
+content.js(163,23): error TS7006: Parameter 'analysis' implicitly has an 'any' type.
+content.js(165,13): error TS2304: Cannot find name 'chrome'.
+content.js(165,31): error TS2304: Cannot find name 'chrome'.
+content.js(166,13): error TS2304: Cannot find name 'chrome'.
+content.js(166,66): error TS7006: Parameter 'result' implicitly has an 'any' type.
+content.js(167,21): error TS2304: Cannot find name 'chrome'.
+content.js(173,47): error TS7006: Parameter 'type' implicitly has an 'any' type.
+content.js(185,17): error TS2304: Cannot find name 'chrome'.
+content.js(194,22): error TS7006: Parameter 'obj' implicitly has an 'any' type.
+content.js(196,15): error TS2304: Cannot find name 'chrome'.
+content.js(196,25): error TS2304: Cannot find name 'chrome'.
+content.js(196,43): error TS2304: Cannot find name 'chrome'.
+content.js(206,9): error TS2304: Cannot find name 'chrome'.
+content.js(206,52): error TS7006: Parameter 'res' implicitly has an 'any' type.
+content.js(211,13): error TS2304: Cannot find name 'chrome'.
+content.js(214,57): error TS2339: Property 'message' does not exist on type '{}'.
+content.js(214,69): error TS2339: Property 'message' does not exist on type '{}'.
+content.js(219,28): error TS7006: Parameter 'analysis' implicitly has an 'any' type.
+content.js(219,38): error TS7006: Parameter 'targetElement' implicitly has an 'any' type.
+content.js(219,53): error TS7006: Parameter 'options' implicitly has an 'any' type.
+content.js(310,24): error TS7006: Parameter 'message' implicitly has an 'any' type.
+content.js(406,28): error TS7006: Parameter 'event' implicitly has an 'any' type.
+content.js(406,35): error TS7006: Parameter 'userInput' implicitly has an 'any' type.
+content.js(406,46): error TS7006: Parameter 'inputElement' implicitly has an 'any' type.
+content.js(433,5): error TS7034: Variable 'activeTextInput' implicitly has type 'any' in some locations where its type cannot be determined.
+content.js(434,5): error TS7034: Variable 'lastSendButton' implicitly has type 'any' in some locations where its type cannot be determined.
+content.js(438,9): error TS7005: Variable 'lastSendButton' implicitly has an 'any' type.
+content.js(451,9): error TS18047: 'e.target' is possibly 'null'.
+content.js(451,18): error TS2339: Property 'tagName' does not exist on type 'EventTarget'.
+content.js(451,44): error TS18047: 'e.target' is possibly 'null'.
+content.js(451,53): error TS2339: Property 'role' does not exist on type 'EventTarget'.
+content.js(451,75): error TS18047: 'e.target' is possibly 'null'.
+content.js(451,84): error TS2339: Property 'isContentEditable' does not exist on type 'EventTarget'.
+content.js(457,9): error TS18047: 'e.target' is possibly 'null'.
+content.js(457,18): error TS2339: Property 'tagName' does not exist on type 'EventTarget'.
+content.js(457,44): error TS18047: 'e.target' is possibly 'null'.
+content.js(457,53): error TS2339: Property 'role' does not exist on type 'EventTarget'.
+content.js(457,75): error TS18047: 'e.target' is possibly 'null'.
+content.js(457,84): error TS2339: Property 'isContentEditable' does not exist on type 'EventTarget'.
+content.js(464,24): error TS18047: 'event.target' is possibly 'null'.
+content.js(464,37): error TS2339: Property 'tagName' does not exist on type 'EventTarget'.
+content.js(465,24): error TS18047: 'event.target' is possibly 'null'.
+content.js(465,37): error TS2339: Property 'role' does not exist on type 'EventTarget'.
+content.js(466,24): error TS18047: 'event.target' is possibly 'null'.
+content.js(466,37): error TS2339: Property 'contentEditable' does not exist on type 'EventTarget'.
+content.js(469,27): error TS18047: 'event.target' is possibly 'null'.
+content.js(469,40): error TS2339: Property 'innerText' does not exist on type 'EventTarget'.
+content.js(469,53): error TS18047: 'event.target' is possibly 'null'.
+content.js(469,66): error TS2339: Property 'value' does not exist on type 'EventTarget'.
+content.js(482,24): error TS2339: Property 'tagName' does not exist on type 'EventTarget'.
+content.js(482,55): error TS2339: Property 'role' does not exist on type 'EventTarget'.
+content.js(483,38): error TS2339: Property 'getAttribute' does not exist on type 'EventTarget'.
+content.js(484,40): error TS2339: Property 'getAttribute' does not exist on type 'EventTarget'.
+content.js(485,39): error TS2339: Property 'getAttribute' does not exist on type 'EventTarget'.
+content.js(489,78): error TS2339: Property 'type' does not exist on type 'EventTarget'.
+content.js(495,29): error TS2339: Property 'parentElement' does not exist on type 'EventTarget'.
+content.js(500,34): error TS7005: Variable 'activeTextInput' implicitly has an 'any' type.
+content.js(580,16): error TS2339: Property 'SentinelScanner' does not exist on type 'Window & typeof globalThis'.
+content.js(580,49): error TS2339: Property 'SentinelScanner' does not exist on type 'Window & typeof globalThis'.
+content.js(581,16): error TS2339: Property 'SentinelScanner' does not exist on type 'Window & typeof globalThis'.
+content.js(601,26): error TS2339: Property 'detail' does not exist on type 'Event'.
+content.js(605,29): error TS2339: Property 'detail' does not exist on type 'Event'.
+content.js(610,27): error TS7006: Parameter 'reqId' implicitly has an 'any' type.
+content.js(610,34): error TS7006: Parameter 'allow' implicitly has an 'any' type.
+content.js(615,71): error TS2339: Property 'message' does not exist on type '{}'.
+content.js(615,83): error TS2339: Property 'message' does not exist on type '{}'.
+content.js(662,85): error TS2304: Cannot find name 'fname'.
+content.js(662,110): error TS2339: Property 'message' does not exist on type '{}'.
+content.js(662,124): error TS2339: Property 'message' does not exist on type '{}'.
+content.js(684,34): error TS2339: Property 'querySelectorAll' does not exist on type 'Node'.
+content.js(685,54): error TS2339: Property 'querySelectorAll' does not exist on type 'Node'.
+content.js(687,34): error TS2339: Property 'tagName' does not exist on type 'Node'.
+logs.js(3,9): error TS2304: Cannot find name 'chrome'.
+logs.js(3,53): error TS7006: Parameter 'result' implicitly has an 'any' type.
+logs.js(7,13): error TS18047: 'logBody' is possibly 'null'.
+logs.js(10,17): error TS18047: 'logBody' is possibly 'null'.
+logs.js(15,36): error TS7006: Parameter 'log' implicitly has an 'any' type.
+logs.js(27,17): error TS18047: 'logBody' is possibly 'null'.
+logs.js(40,17): error TS2304: Cannot find name 'chrome'.
+logs.js(49,13): error TS2304: Cannot find name 'chrome'.
+logs.js(49,57): error TS7006: Parameter 'result' implicitly has an 'any' type.
+logs.js(56,32): error TS7006: Parameter 'e' implicitly has an 'any' type.
+page-guard.js(2,14): error TS2339: Property '__sentinelPageGuardInstalled' does not exist on type 'Window & typeof globalThis'.
+page-guard.js(5,10): error TS2339: Property '__sentinelPageGuardInstalled' does not exist on type 'Window & typeof globalThis'.
+page-guard.js(7,28): error TS7006: Parameter 'value' implicitly has an 'any' type.
+page-guard.js(19,32): error TS7006: Parameter 'filename' implicitly has an 'any' type.
+page-guard.js(46,34): error TS7006: Parameter 'body' implicitly has an 'any' type.
+page-guard.js(47,9): error TS7034: Variable 'imageFiles' implicitly has type 'any[]' in some locations where its type cannot be determined.
+page-guard.js(50,14): error TS7005: Variable 'imageFiles' implicitly has an 'any[]' type.
+page-guard.js(59,43): error TS2339: Property 'name' does not exist on type 'FormDataEntryValue'.
+  Property 'name' does not exist on type 'string'.
+page-guard.js(59,72): error TS2339: Property 'type' does not exist on type 'FormDataEntryValue'.
+  Property 'type' does not exist on type 'string'.
+page-guard.js(59,106): error TS2339: Property 'size' does not exist on type 'FormDataEntryValue'.
+  Property 'size' does not exist on type 'string'.
+page-guard.js(75,85): error TS2339: Property 'name' does not exist on type 'Blob'.
+page-guard.js(91,31): error TS7006: Parameter 'imageFile' implicitly has an 'any' type.
+page-guard.js(91,42): error TS7006: Parameter 'reason' implicitly has an 'any' type.
+page-guard.js(112,34): error TS7006: Parameter 'imageFile' implicitly has an 'any' type.
+page-guard.js(112,45): error TS7006: Parameter 'reason' implicitly has an 'any' type.
+page-guard.js(112,53): error TS7006: Parameter 'timeoutMs' implicitly has an 'any' type.
+page-guard.js(133,15): error TS2339: Property 'timeout' does not exist on type '{ resolve: (value: any) => void; }'.
+page-guard.js(148,24): error TS2339: Property 'detail' does not exist on type 'Event'.
+page-guard.js(148,36): error TS2339: Property 'detail' does not exist on type 'Event'.
+page-guard.js(162,49): error TS7006: Parameter 'blob' implicitly has an 'any' type.
+page-guard.js(201,54): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[input: URL | RequestInfo, init?: RequestInit | undefined]'.
+page-guard.js(207,58): error TS7006: Parameter 'blob' implicitly has an 'any' type.
+page-guard.js(212,58): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[input: URL | RequestInfo, init?: RequestInit | undefined]'.
+page-guard.js(219,60): error TS7006: Parameter 'text' implicitly has an 'any' type.
+page-guard.js(224,60): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[input: URL | RequestInfo, init?: RequestInit | undefined]'.
+page-guard.js(230,52): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[input: URL | RequestInfo, init?: RequestInit | undefined]'.
+page-guard.js(231,73): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[input: URL | RequestInfo, init?: RequestInit | undefined]'.
+page-guard.js(232,71): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[input: URL | RequestInfo, init?: RequestInit | undefined]'.
+page-guard.js(234,48): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[input: URL | RequestInfo, init?: RequestInit | undefined]'.
+page-guard.js(247,50): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[input: URL | RequestInfo, init?: RequestInit | undefined]'.
+page-guard.js(255,64): error TS2339: Property 'name' does not exist on type 'Blob'.
+page-guard.js(257,52): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[input: URL | RequestInfo, init?: RequestInit | undefined]'.
+page-guard.js(268,52): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[input: URL | RequestInfo, init?: RequestInit | undefined]'.
+page-guard.js(279,40): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[input: URL | RequestInfo, init?: RequestInit | undefined]'.
+page-guard.js(285,45): error TS7006: Parameter 'body' implicitly has an 'any' type.
+page-guard.js(294,37): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[body?: Document | XMLHttpRequestBodyInit | null | undefined]'.
+page-guard.js(301,35): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[body?: Document | XMLHttpRequestBodyInit | null | undefined]'.
+page-guard.js(309,48): error TS2339: Property 'name' does not exist on type 'Blob'.
+page-guard.js(311,41): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[body?: Document | XMLHttpRequestBodyInit | null | undefined]'.
+page-guard.js(316,60): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[body?: Document | XMLHttpRequestBodyInit | null | undefined]'.
+page-guard.js(324,39): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[body?: Document | XMLHttpRequestBodyInit | null | undefined]'.
+page-guard.js(329,58): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[body?: Document | XMLHttpRequestBodyInit | null | undefined]'.
+page-guard.js(363,22): error TS2721: Cannot invoke an object which is possibly 'null'.
+page-guard.js(373,43): error TS7006: Parameter 'name' implicitly has an 'any' type.
+page-guard.js(373,49): error TS7006: Parameter 'value' implicitly has an 'any' type.
+page-guard.js(379,46): error TS2339: Property 'name' does not exist on type 'Blob'.
+page-guard.js(385,52): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[name: string, blobValue: Blob, filename?: string | undefined]'.
+page-guard.js(401,24): error TS2339: Property 'files' does not exist on type 'Element'.
+page-guard.js(401,36): error TS2339: Property 'files' does not exist on type 'Element'.
+page-guard.js(402,28): error TS2339: Property 'files' does not exist on type 'Element'.
+page-guard.js(414,39): error TS2339: Property 'value' does not exist on type 'Element'.
+page-guard.js(426,48): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[]'.
+page-guard.js(435,42): error TS7006: Parameter 'data' implicitly has an 'any' type.
+page-guard.js(446,53): error TS2339: Property 'length' does not exist on type 'ArrayBuffer | ArrayBufferView<ArrayBufferLike>'.
+  Property 'length' does not exist on type 'ArrayBuffer'.
+page-guard.js(466,44): error TS2345: Argument of type 'IArguments' is not assignable to parameter of type '[data: string | Blob | BufferSource]'.
+pattern-generator.js(78,27): error TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ chat: string[]; coding: string[]; image: string[]; video: string[]; audio: string[]; writing: string[]; design: string[]; research: string[]; business: string[]; education: string[]; translation: string[]; search: string[]; social: string[]; devops: string[]; payment: string[]; security: string[]; }'.
+  No index signature with a parameter of type 'string' was found on type '{ chat: string[]; coding: string[]; image: string[]; video: string[]; audio: string[]; writing: string[]; design: string[]; research: string[]; business: string[]; education: string[]; translation: string[]; search: string[]; social: string[]; devops: string[]; payment: string[]; security: string[]; }'.
+pattern-generator.js(187,21): error TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+pattern-generator.js(187,28): error TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+pattern-generator.js(190,36): error TS2339: Property 'toUpperCase' does not exist on type 'string | number'.
+  Property 'toUpperCase' does not exist on type 'number'.
+pattern-generator.js(220,24): error TS7006: Parameter 'domain' implicitly has an 'any' type.
+pattern-generator.js(255,27): error TS7006: Parameter 'patterns' implicitly has an 'any' type.
+pattern-generator.js(273,27): error TS2345: Argument of type 'any' is not assignable to parameter of type 'never'.
+pattern-generator.js(292,8): error TS2339: Property 'SentinelGationPatternGenerator' does not exist on type 'Window & typeof globalThis'.
+popup.js(3,5): error TS2304: Cannot find name 'chrome'.
+popup.js(3,42): error TS7006: Parameter 'result' implicitly has an 'any' type.
+popup.js(10,13): error TS2531: Object is possibly 'null'.
+popup.js(15,13): error TS2531: Object is possibly 'null'.
+popup.js(18,13): error TS2531: Object is possibly 'null'.
+popup.js(26,13): error TS2531: Object is possibly 'null'.
+popup.js(35,13): error TS2304: Cannot find name 'chrome'.
+popup_ml.js(4,5): error TS7034: Variable '__pgai_vec' implicitly has type 'any' in some locations where its type cannot be determined.
+popup_ml.js(5,5): error TS7034: Variable '__pgai_clf' implicitly has type 'any' in some locations where its type cannot be determined.
+popup_ml.js(7,5): error TS7034: Variable 'ocrWorker' implicitly has type 'any' in some locations where its type cannot be determined.
+popup_ml.js(14,20): error TS2304: Cannot find name 'chrome'.
+popup_ml.js(15,20): error TS2304: Cannot find name 'chrome'.
+popup_ml.js(32,16): error TS2304: Cannot find name 'Tesseract'.
+popup_ml.js(32,46): error TS2304: Cannot find name 'Tesseract'.
+popup_ml.js(36,17): error TS2304: Cannot find name 'Tesseract'.
+popup_ml.js(37,19): error TS2304: Cannot find name 'chrome'.
+popup_ml.js(38,17): error TS2304: Cannot find name 'chrome'.
+popup_ml.js(39,17): error TS2304: Cannot find name 'chrome'.
+popup_ml.js(40,15): error TS7006: Parameter 'm' implicitly has an 'any' type.
+popup_ml.js(63,26): error TS7006: Parameter 'file' implicitly has an 'any' type.
+popup_ml.js(63,32): error TS7006: Parameter 'maxDim' implicitly has an 'any' type.
+popup_ml.js(81,11): error TS18047: 'ctx' is possibly 'null'.
+popup_ml.js(97,23): error TS7006: Parameter 'text' implicitly has an 'any' type.
+popup_ml.js(97,29): error TS7006: Parameter 'res' implicitly has an 'any' type.
+popup_ml.js(105,38): error TS7006: Parameter 'p' implicitly has an 'any' type.
+popup_ml.js(105,40): error TS7006: Parameter 'i' implicitly has an 'any' type.
+popup_ml.js(113,20): error TS7006: Parameter 'text' implicitly has an 'any' type.
+popup_ml.js(133,38): error TS2339: Property 'value' does not exist on type 'HTMLElement'.
+popup_ml.js(145,21): error TS2304: Cannot find name 'predictPII'.
+popup_ml.js(145,38): error TS7005: Variable '__pgai_vec' implicitly has an 'any' type.
+popup_ml.js(145,50): error TS7005: Variable '__pgai_clf' implicitly has an 'any' type.
+popup_ml.js(157,38): error TS2339: Property 'value' does not exist on type 'HTMLElement'.
+popup_ml.js(159,28): error TS2339: Property 'value' does not exist on type 'HTMLElement'.
+popup_ml.js(171,50): error TS2339: Property 'files' does not exist on type 'EventTarget'.
+popup_ml.js(171,69): error TS2339: Property 'files' does not exist on type 'EventTarget'.
+popup_ml.js(181,32): error TS7005: Variable 'ocrWorker' implicitly has an 'any' type.
+popup_ml.js(189,21): error TS2304: Cannot find name 'predictPII'.
+popup_ml.js(189,38): error TS7005: Variable '__pgai_vec' implicitly has an 'any' type.
+popup_ml.js(189,50): error TS7005: Variable '__pgai_clf' implicitly has an 'any' type.
+popup_ml.js(199,36): error TS7006: Parameter 'file' implicitly has an 'any' type.
+popup_ml.js(207,30): error TS7005: Variable 'ocrWorker' implicitly has an 'any' type.
+popup_ml.js(209,36): error TS2339: Property 'value' does not exist on type 'HTMLElement'.
+popup_ml.js(211,21): error TS2304: Cannot find name 'predictPII'.
+popup_ml.js(211,38): error TS7005: Variable '__pgai_vec' implicitly has an 'any' type.
+popup_ml.js(211,50): error TS7005: Variable '__pgai_clf' implicitly has an 'any' type.
+scanner.js(57,7): error TS7034: Variable 'ocrWorker' implicitly has type 'any' in some locations where its type cannot be determined.
+scanner.js(64,7): error TS7034: Variable 'pendingPasteImage' implicitly has type 'any' in some locations where its type cannot be determined.
+scanner.js(65,7): error TS7034: Variable 'pendingPasteTarget' implicitly has type 'any' in some locations where its type cannot be determined.
+scanner.js(70,20): error TS7006: Parameter 'fileList' implicitly has an 'any' type.
+scanner.js(74,24): error TS7006: Parameter 'file' implicitly has an 'any' type.
+scanner.js(79,22): error TS7006: Parameter 'file' implicitly has an 'any' type.
+scanner.js(84,24): error TS7006: Parameter 'fileName' implicitly has an 'any' type.
+scanner.js(88,25): error TS7006: Parameter 'matchesFound' implicitly has an 'any' type.
+scanner.js(88,39): error TS7006: Parameter 'redactedText' implicitly has an 'any' type.
+scanner.js(96,23): error TS7006: Parameter 'tags' implicitly has an 'any' type.
+scanner.js(100,34): error TS7006: Parameter 'analysis' implicitly has an 'any' type.
+scanner.js(109,27): error TS7006: Parameter 'inputEl' implicitly has an 'any' type.
+scanner.js(116,25): error TS7006: Parameter 'event' implicitly has an 'any' type.
+scanner.js(137,24): error TS7006: Parameter 'analysis' implicitly has an 'any' type.
+scanner.js(137,34): error TS7006: Parameter 'targetElement' implicitly has an 'any' type.
+scanner.js(137,49): error TS7006: Parameter 'reason' implicitly has an 'any' type.
+scanner.js(141,12): error TS2349: This expression is not callable.
+  Type 'never' has no call signatures.
+scanner.js(145,12): error TS2349: This expression is not callable.
+  Type 'never' has no call signatures.
+scanner.js(149,34): error TS7006: Parameter 'filename' implicitly has an 'any' type.
+scanner.js(149,44): error TS7006: Parameter 'reason' implicitly has an 'any' type.
+scanner.js(199,44): error TS7006: Parameter 'filename' implicitly has an 'any' type.
+scanner.js(199,54): error TS7006: Parameter 'reason' implicitly has an 'any' type.
+scanner.js(199,62): error TS7006: Parameter 'inputElement' implicitly has an 'any' type.
+scanner.js(305,5): error TS18047: 'allowBtn' is possibly 'null'.
+scanner.js(305,14): error TS2339: Property 'onclick' does not exist on type 'Element'.
+scanner.js(305,34): error TS7006: Parameter 'e' implicitly has an 'any' type.
+scanner.js(315,5): error TS18047: 'denyBtn' is possibly 'null'.
+scanner.js(315,13): error TS2339: Property 'onclick' does not exist on type 'Element'.
+scanner.js(315,33): error TS7006: Parameter 'e' implicitly has an 'any' type.
+scanner.js(335,51): error TS7006: Parameter 'filename' implicitly has an 'any' type.
+scanner.js(335,61): error TS7006: Parameter 'reason' implicitly has an 'any' type.
+scanner.js(335,69): error TS7006: Parameter 'dropEvent' implicitly has an 'any' type.
+scanner.js(335,80): error TS7006: Parameter 'imageFiles' implicitly has an 'any' type.
+scanner.js(417,5): error TS18047: 'allowBtn' is possibly 'null'.
+scanner.js(423,5): error TS18047: 'denyBtn' is possibly 'null'.
+scanner.js(438,52): error TS7006: Parameter 'filename' implicitly has an 'any' type.
+scanner.js(438,62): error TS7006: Parameter 'reason' implicitly has an 'any' type.
+scanner.js(515,5): error TS18047: 'allowBtn' is possibly 'null'.
+scanner.js(520,11): error TS7005: Variable 'pendingPasteTarget' implicitly has an 'any' type.
+scanner.js(520,33): error TS7005: Variable 'pendingPasteImage' implicitly has an 'any' type.
+scanner.js(547,5): error TS18047: 'denyBtn' is possibly 'null'.
+scanner.js(558,10): error TS7005: Variable 'pendingPasteImage' implicitly has an 'any' type.
+scanner.js(562,40): error TS7005: Variable 'pendingPasteTarget' implicitly has an 'any' type.
+scanner.js(568,15): error TS2339: Property 'files' does not exist on type 'Element'.
+scanner.js(582,9): error TS7005: Variable 'pendingPasteTarget' implicitly has an 'any' type.
+scanner.js(594,15): error TS2322: Type 'string | ArrayBuffer' is not assignable to type 'string'.
+  Type 'ArrayBuffer' is not assignable to type 'string'.
+scanner.js(595,25): error TS7005: Variable 'pendingPasteImage' implicitly has an 'any' type.
+scanner.js(623,46): error TS2339: Property 'length' does not exist on type 'string | ArrayBuffer'.
+  Property 'length' does not exist on type 'ArrayBuffer'.
+scanner.js(649,31): error TS7006: Parameter 'reasonTag' implicitly has an 'any' type.
+scanner.js(649,42): error TS7006: Parameter 'details' implicitly has an 'any' type.
+scanner.js(654,37): error TS7006: Parameter 'text' implicitly has an 'any' type.
+scanner.js(657,13): error TS7006: Parameter 'x' implicitly has an 'any' type.
+scanner.js(658,16): error TS7006: Parameter 'x' implicitly has an 'any' type.
+scanner.js(661,22): error TS7006: Parameter 'numberString' implicitly has an 'any' type.
+scanner.js(680,34): error TS7006: Parameter 'text' implicitly has an 'any' type.
+scanner.js(747,27): error TS7006: Parameter 'n' implicitly has an 'any' type.
+scanner.js(764,23): error TS7006: Parameter 'event' implicitly has an 'any' type.
+scanner.js(772,28): error TS7006: Parameter 'file' implicitly has an 'any' type.
+scanner.js(782,16): error TS2339: Property 'Tesseract' does not exist on type 'Window & typeof globalThis'.
+scanner.js(788,23): error TS2339: Property 'Tesseract' does not exist on type 'Window & typeof globalThis'.
+scanner.js(793,23): error TS2304: Cannot find name 'chrome'.
+scanner.js(804,32): error TS2339: Property 'Tesseract' does not exist on type 'Window & typeof globalThis'.
+scanner.js(809,16): error TS2339: Property 'pdfjsLib' does not exist on type 'Window & typeof globalThis'.
+scanner.js(815,23): error TS2339: Property 'pdfjsLib' does not exist on type 'Window & typeof globalThis'.
+scanner.js(820,23): error TS2304: Cannot find name 'chrome'.
+scanner.js(836,28): error TS2339: Property 'pdfjsLib' does not exist on type 'Window & typeof globalThis'.
+scanner.js(841,9): error TS7005: Variable 'ocrWorker' implicitly has an 'any' type.
+scanner.js(846,17): error TS2339: Property 'Tesseract' does not exist on type 'Window & typeof globalThis'.
+scanner.js(851,19): error TS2304: Cannot find name 'chrome'.
+scanner.js(852,17): error TS2304: Cannot find name 'chrome'.
+scanner.js(853,17): error TS2304: Cannot find name 'chrome'.
+scanner.js(860,32): error TS2339: Property 'Tesseract' does not exist on type 'Window & typeof globalThis'.
+scanner.js(864,34): error TS2339: Property 'Tesseract' does not exist on type 'Window & typeof globalThis'.
+scanner.js(880,48): error TS7006: Parameter 'imageData' implicitly has an 'any' type.
+scanner.js(886,19): error TS2339: Property 'Tesseract' does not exist on type 'Window & typeof globalThis'.
+scanner.js(916,46): error TS7006: Parameter 'file' implicitly has an 'any' type.
+scanner.js(925,46): error TS7006: Parameter 'buffer' implicitly has an 'any' type.
+scanner.js(926,17): error TS2339: Property 'pdfjsLib' does not exist on type 'Window & typeof globalThis'.
+scanner.js(926,43): error TS2339: Property 'pdfjsLib' does not exist on type 'Window & typeof globalThis'.
+scanner.js(931,18): error TS2339: Property 'pdfjsLib' does not exist on type 'Window & typeof globalThis'.
+scanner.js(931,58): error TS2339: Property 'pdfjsLib' does not exist on type 'Window & typeof globalThis'.
+scanner.js(932,16): error TS2339: Property 'pdfjsLib' does not exist on type 'Window & typeof globalThis'.
+scanner.js(932,57): error TS2304: Cannot find name 'chrome'.
+scanner.js(935,27): error TS2339: Property 'pdfjsLib' does not exist on type 'Window & typeof globalThis'.
+scanner.js(943,53): error TS7006: Parameter 'item' implicitly has an 'any' type.
+scanner.js(953,41): error TS7006: Parameter 'page' implicitly has an 'any' type.
+scanner.js(953,47): error TS7006: Parameter 'scale' implicitly has an 'any' type.
+scanner.js(968,44): error TS7006: Parameter 'pdf' implicitly has an 'any' type.
+scanner.js(969,25): error TS2339: Property 'Tesseract' does not exist on type 'Window & typeof globalThis'.
+scanner.js(991,37): error TS7006: Parameter 'buffer' implicitly has an 'any' type.
+scanner.js(1001,41): error TS7006: Parameter 'file' implicitly has an 'any' type.
+scanner.js(1012,40): error TS2339: Property 'pdfjsLib' does not exist on type 'Window & typeof globalThis'.
+scanner.js(1014,35): error TS2339: Property 'pdfjsLib' does not exist on type 'Window & typeof globalThis'.
+scanner.js(1037,34): error TS7006: Parameter 'dataUrl' implicitly has an 'any' type.
+scanner.js(1049,9): error TS18047: 'ctx' is possibly 'null'.
+scanner.js(1052,27): error TS18047: 'ctx' is possibly 'null'.
+scanner.js(1066,9): error TS18047: 'ctx' is possibly 'null'.
+scanner.js(1079,38): error TS7006: Parameter 'ocrData' implicitly has an 'any' type.
+scanner.js(1087,15): error TS7006: Parameter 'word' implicitly has an 'any' type.
+scanner.js(1088,12): error TS7006: Parameter 'word' implicitly has an 'any' type.
+scanner.js(1095,31): error TS7006: Parameter 'files' implicitly has an 'any' type.
+scanner.js(1095,38): error TS7006: Parameter 'options' implicitly has an 'any' type.
+scanner.js(1130,20): error TS2349: This expression is not callable.
+  Type 'never' has no call signatures.
+scanner.js(1171,41): error TS2339: Property 'message' does not exist on type '{}'.
+scanner.js(1171,57): error TS2339: Property 'message' does not exist on type '{}'.
+scanner.js(1196,18): error TS2349: This expression is not callable.
+  Type 'never' has no call signatures.
+scanner.js(1228,29): error TS7006: Parameter 'files' implicitly has an 'any' type.
+scanner.js(1232,27): error TS7006: Parameter 'files' implicitly has an 'any' type.
+scanner.js(1243,18): error TS2304: Cannot find name 'chrome'.
+scanner.js(1254,35): error TS7006: Parameter 'eventTarget' implicitly has an 'any' type.
+scanner.js(1271,40): error TS7006: Parameter 'event' implicitly has an 'any' type.
+scanner.js(1323,29): error TS7006: Parameter 'event' implicitly has an 'any' type.
+scanner.js(1347,30): error TS7006: Parameter 'event' implicitly has an 'any' type.
+scanner.js(1438,28): error TS2339: Property 'matches' does not exist on type 'EventTarget'.
+scanner.js(1438,46): error TS2339: Property 'matches' does not exist on type 'EventTarget'.
+scanner.js(1466,17): error TS7006: Parameter 'options' implicitly has an 'any' type.
+scanner.js(1475,10): error TS2339: Property 'SentinelScanner' does not exist on type 'Window & typeof globalThis'.
+updater.js(96,28): error TS2304: Cannot find name 'chrome'.
+updater.js(112,15): error TS2304: Cannot find name 'chrome'.
+updater.js(122,26): error TS2304: Cannot find name 'chrome'.
+updater.js(163,15): error TS2304: Cannot find name 'chrome'.
+updater.js(177,25): error TS7006: Parameter 'current' implicitly has an 'any' type.
+updater.js(177,34): error TS7006: Parameter 'newThreats' implicitly has an 'any' type.
+updater.js(182,30): error TS7006: Parameter 'threat' implicitly has an 'any' type.
+updater.js(182,73): error TS7006: Parameter 't' implicitly has an 'any' type.
+updater.js(193,26): error TS2304: Cannot find name 'chrome'.
+updater.js(229,36): error TS7006: Parameter 'type' implicitly has an 'any' type.
+updater.js(231,48): error TS7006: Parameter 'p' implicitly has an 'any' type.
+updater.js(238,35): error TS7006: Parameter 'value' implicitly has an 'any' type.
+updater.js(242,25): error TS7006: Parameter 'threat' implicitly has an 'any' type.
+updater.js(259,31): error TS7006: Parameter 'w' implicitly has an 'any' type.
+updater.js(260,35): error TS7006: Parameter 'w' implicitly has an 'any' type.
+updater.js(265,10): error TS2339: Property 'SentinelGateUpdater' does not exist on type 'Window & typeof globalThis'.
+updater.js(280,26): error TS2304: Cannot find name 'chrome'.

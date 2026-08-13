@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "checkJs": true
+  },
+  "exclude": [
+    "vendor/**",
+    "tests/**",
+    "chrome-extension-main/**",
+    "*.log",
+    "remove_*.js",
+    "background.js"
+  ]
+}

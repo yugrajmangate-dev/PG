@@ -1,0 +1,36 @@
+/* Example: Highlight the text box in red when a leak is detected */
+.security-leak-warning {
+    border: 3px solid #302594 !important;
+    background-color: #fff2f2 !important;
+}
+
+/* Injected UI Overlay - REMOVED (using inline styles instead for cloud-only design) */
+/* .sentinel-warning-overlay {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 99999;
+    background: #50c6ea;
+    color: #fecaca;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #41bbc9;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+    width: 320px;
+    animation: slideIn 0.3s ease-out;
+} */
+
+@keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+.sentinel-btn-primary {
+    background: #3086ad;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+}
