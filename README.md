@@ -1,5 +1,5 @@
 <div align="center">
-  <h1> SentinelGate: PrivacyGuard AI Protector</h1>
+  <h1> PrivacyGuard - AI Protector</h1>
   <p><strong>A Zero-Trust Browser Security Gateway Preventing PII & Corporate Data Exfiltration to LLMs</strong></p>
 
   <a href="https://privacyguardai.vercel.app/"><strong>Explore the Live Website »</strong></a>
@@ -18,14 +18,14 @@
 ## 🛑 The Problem
 The rapid adoption of AI platforms (ChatGPT, Claude, Gemini) has created a massive shadow-IT security risk. Employees and individuals unknowingly upload **Highly Confidential Documents**, **API Keys**, **Aadhaar/PAN Cards**, and **Proprietary Source Code** to public LLMs, leading to severe data breaches and regulatory compliance violations.
 
-## 🚀 The Solution: SentinelGate
+##  The Solution: SentinelGate
 **SentinelGate** is an enterprise-grade Chrome Extension operating entirely locally within the browser. It acts as an **air-gapped Zero-Trust gateway**, intercepting network requests and scanning text/file uploads in real-time before they ever leave the user's device.
 
 If sensitive data is detected, SentinelGate surgically blocks the request, explains the threat, and allows the user to redact the information—saving companies millions in potential breach liabilities.
 
 ---
 
-## 🧠 Core Technical Architecture
+##  Core Technical Architecture
 
 SentinelGate isn't just a regex scanner; it's a multi-layered security engine built for speed and accuracy.
 
