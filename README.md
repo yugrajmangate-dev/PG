@@ -27,7 +27,7 @@ If sensitive data is detected, Privacy Guard surgically blocks the request, expl
 
 ##  Core Technical Architecture
 
-SentinelGate isn't just a regex scanner; it's a multi-layered security engine built for speed and accuracy.
+Privacy Guard   isn't just a regex scanner; it's a multi-layered security engine built for speed and accuracy.
 
 ```mermaid
 graph TD
@@ -58,10 +58,10 @@ Powered by a custom-trained TF-IDF vectorizer and Naive Bayes classifier running
 - Zero latency; no external API calls required.
 
 ### 3.  WASM-Powered OCR for Images
-Users often upload screenshots containing credentials. SentinelGate integrates **Tesseract.js** (compiled to WebAssembly) to locally extract text from `.png`, `.jpg`, and `.pdf` files, scanning the raw text for PAN cards, Aadhaar numbers, and financial data.
+Users often upload screenshots containing credentials. Privacy Guard   integrates **Tesseract.js** (compiled to WebAssembly) to locally extract text from `.png`, `.jpg`, and `.pdf` files, scanning the raw text for PAN cards, Aadhaar numbers, and financial data.
 
 ### 4.  Smart Auto-Discovery (1000+ Platforms)
-Threats evolve daily. SentinelGate utilizes a background worker (`updater.js`) that synchronizes with a central threat feed every 24 hours. It dynamically maps new LLM platforms (e.g., when a new AI tool launches) without requiring a hard extension update.
+Threats evolve daily. Privacy Guard   utilizes a background worker (`updater.js`) that synchronizes with a central threat feed every 24 hours. It dynamically maps new LLM platforms (e.g., when a new AI tool launches) without requiring a hard extension update.
 
 ---
 
@@ -95,7 +95,7 @@ To evaluate the complete security suite:
 3. Toggle **Developer mode** (top right corner).
 4. Click **Load unpacked** and select the cloned repository folder.
 5. Open [ChatGPT](https://chatgpt.com) and try typing an AWS Key (`AKIA...`) or uploading an image of an ID card.
-6. Watch SentinelGate block the outbound request locally!
+6. Watch Privacy Guard   block the outbound request locally!
 
 ---
 
