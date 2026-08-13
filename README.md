@@ -18,10 +18,10 @@
 ## 🛑 The Problem
 The rapid adoption of AI platforms (ChatGPT, Claude, Gemini) has created a massive shadow-IT security risk. Employees and individuals unknowingly upload **Highly Confidential Documents**, **API Keys**, **Aadhaar/PAN Cards**, and **Proprietary Source Code** to public LLMs, leading to severe data breaches and regulatory compliance violations.
 
-##  The Solution: SentinelGate
-**SentinelGate** is an enterprise-grade Chrome Extension operating entirely locally within the browser. It acts as an **air-gapped Zero-Trust gateway**, intercepting network requests and scanning text/file uploads in real-time before they ever leave the user's device.
+##  The Solution: 
+**Privacy Guard** is an enterprise-grade Chrome Extension operating entirely locally within the browser. It acts as an **air-gapped Zero-Trust gateway**, intercepting network requests and scanning text/file uploads in real-time before they ever leave the user's device.
 
-If sensitive data is detected, SentinelGate surgically blocks the request, explains the threat, and allows the user to redact the information—saving companies millions in potential breach liabilities.
+If sensitive data is detected, Privacy Guard surgically blocks the request, explains the threat, and allows the user to redact the information—saving companies millions in potential breach liabilities.
 
 ---
 
@@ -69,10 +69,10 @@ Threats evolve daily. SentinelGate utilizes a background worker (`updater.js`) t
 
 | Category | Data Types Blocked |
 |----------|-------------------|
-| **Gov Identity** | Aadhaar, PAN Card, Voter ID, Passport, SSN |
-| **Financial** | Credit Cards, CVV, Routing Numbers, Crypto Wallets |
-| **Corporate** | AWS/GCP API Keys, JWT Tokens, DB Connection Strings |
-| **Personal** | Email Addresses, Phone Numbers, IPv4 Addresses |
+| **Gov Identity** | Aadhaar, PAN Card, Voter ID, Passport, SSN, etc... |
+| **Financial** | Credit Cards, CVV, Routing Numbers, Crypto Wallets, etc.. |
+| **Corporate** | AWS/GCP API Keys, JWT Tokens, DB Connection Strings, etc.. |
+| **Personal** | Email Addresses, Phone Numbers, IPv4 Addresses, etc... |
 
 ---
 
