@@ -1,6 +1,5 @@
 # PrivacyGuard AI Protector
 
-# chrome-extension
 
 # Website Link - https://privacyguardai.vercel.app/
 
@@ -72,9 +71,4 @@ Because this is a custom extension, you will need to load it manually via Chrome
 * `popup.html` / `popup.js`: The UI and logic for the quick-access extension dropdown menu.
 * `logs.html` / `logs.js`: The UI and logic for the detailed activity history page.
 
-## Team Neural Mavericks 
-Neural Mavericks - Aaditya Hingmire,
-                   Parth Bhad,
-                   Yugraj Mangate,
-                   Manasvi Yeole
 
