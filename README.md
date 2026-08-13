@@ -7,7 +7,6 @@
   <br />
   <br />
 
-  [![Hackathon](https://img.shields.io/badge/SIH-Smart_India_Hackathon-orange?style=for-the-badge)](https://sih.gov.in/)
   [![Version](https://img.shields.io/badge/Version-2.0.0-blue?style=for-the-badge)]()
   [![Coverage](https://img.shields.io/badge/Coverage-1000%2B_Platforms-success?style=for-the-badge)]()
   [![ML Enabled](https://img.shields.io/badge/ML_Engine-Active-purple?style=for-the-badge)]()
