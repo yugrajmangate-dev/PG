@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🛡️ SentinelGate: PrivacyGuard AI Protector</h1>
+  <h1> SentinelGate: PrivacyGuard AI Protector</h1>
   <p><strong>A Zero-Trust Browser Security Gateway Preventing PII & Corporate Data Exfiltration to LLMs</strong></p>
 
   <a href="https://privacyguardai.vercel.app/"><strong>Explore the Live Website »</strong></a>
@@ -48,24 +48,24 @@ graph TD
     Decision -- No --> Allow[Allow Transmission to LLM]
 ```
 
-### 1. ⚡ Real-Time Network Interception
+### 1.  Real-Time Network Interception
 Injects deep into the DOM to intercept `fetch` and `XMLHttpRequest` events. Captures data milliseconds before it hits the network layer.
 
-### 2. 🤖 Local Machine Learning Engine
+### 2.  Local Machine Learning Engine
 Powered by a custom-trained TF-IDF vectorizer and Naive Bayes classifier running **entirely in the browser** via JavaScript. 
 - Trained on a synthetic dataset of 10,000+ PII records.
 - Detects contextual leaks that regex alone would miss.
 - Zero latency; no external API calls required.
 
-### 3. 👁️ WASM-Powered OCR for Images
+### 3.  WASM-Powered OCR for Images
 Users often upload screenshots containing credentials. SentinelGate integrates **Tesseract.js** (compiled to WebAssembly) to locally extract text from `.png`, `.jpg`, and `.pdf` files, scanning the raw text for PAN cards, Aadhaar numbers, and financial data.
 
-### 4. 🌐 Smart Auto-Discovery (1000+ Platforms)
+### 4.  Smart Auto-Discovery (1000+ Platforms)
 Threats evolve daily. SentinelGate utilizes a background worker (`updater.js`) that synchronizes with a central threat feed every 24 hours. It dynamically maps new LLM platforms (e.g., when a new AI tool launches) without requiring a hard extension update.
 
 ---
 
-## 🔍 What We Detect
+##  What We Detect
 
 | Category | Data Types Blocked |
 |----------|-------------------|
@@ -76,7 +76,7 @@ Threats evolve daily. SentinelGate utilizes a background worker (`updater.js`) t
 
 ---
 
-## 🎯 Supported Platforms
+##  Supported Platforms
 
 Currently actively guarding **1000+** domains including:
 - **Core LLMs**: `chatgpt.com`, `claude.ai`, `gemini.google.com`, `aistudio.google.com`
@@ -86,7 +86,7 @@ Currently actively guarding **1000+** domains including:
 
 ---
 
-## 🚀 Installation for Hackathon Judges
+##  Installation for Hackathon Judges
 
 To evaluate the complete security suite:
 
@@ -99,7 +99,7 @@ To evaluate the complete security suite:
 
 ---
 
-## 🛠️ Repository Structure
+##  Repository Structure
 
 ```text
 ├── manifest.json       # V3 Extension Manifest
@@ -120,12 +120,5 @@ To evaluate the complete security suite:
 
 ---
 
-## 🏆 Team Neural Mavericks
-Built with precision for **Smart India Hackathon (SIH)**.
-
-- **Aaditya Hingmire**
-- **Parth Bhad**
-- **Yugraj Mangate**
-- **Manasvi Yeole**
 
 > *"Security shouldn't be an afterthought; it should be baked into the browser."*
